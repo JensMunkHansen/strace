@@ -7,6 +7,7 @@ int testMe(int a, float* q) {
 }
 
 using namespace sps;
+
 int main() {
   STrace::Instance().Enable();
 
