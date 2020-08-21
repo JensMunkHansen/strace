@@ -1,14 +1,12 @@
 #include <strace.hpp>
 
 int testMe(int a, float* q) {
-  //  Debug::DeathHandler dh;
   int* p = NULL;
   *p = 0;
   return 0;
 }
 
 using namespace sps;
-
 int main() {
   STrace::Instance().Enable();
 
